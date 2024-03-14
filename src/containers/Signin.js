@@ -1,4 +1,5 @@
-import { useState } from "react";
+import React from "react";
+import { useState, useEffect } from "react";
 import {useNavigate ,Link} from "react-router-dom";
 import image from "../Screenshot (49).png"
 const usersArray = [
@@ -31,9 +32,15 @@ const Signin = () =>{
             alert('User can not found')
         }
     };
-    if (isLoggedIn) {
-        return <Link to={`/Filter/${encodeURIComponent('home')}`}></Link>;
-      }
+    /*if (isLoggedIn) {
+        return <Link to={`/Filter/${encodeURIComponent('home')}`}></Link>; // Assuming you want to navigate to '/Filter/home' on successful signin
+    }*/
+    useEffect(() => {
+        if (isLoggedIn) {
+            navigate(`/Filter/${encodeURIComponent('home')}`);
+        }
+    }, [isLoggedIn, navigate]);
+
     return(
         <div className="flex justify-center items-center h-screen bg-blue-50 -mt-20">
             <div className="absolute top-28">
