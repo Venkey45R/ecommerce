@@ -17,20 +17,23 @@ const usersArray = [
 const Signin = () =>{
     const [username,setusername] = useState('');
     const [password,setpassword] = useState('');
+    const [isLoggedIn, setIsLoggedIn] = useState(false);
     const navigate = useNavigate();
 
     const validate = (e) =>{
         e.preventDefault();
         const user = usersArray.find((user) => user.username === username && user.password === password);
         if(user){
-            console.log('user');
+            setIsLoggedIn(true);
             navigate(-1);
         }
         else{
             alert('User can not found')
         }
-
     };
+    if (isLoggedIn) {
+        return <Link to={`/Filter/${encodeURIComponent('home')}`}></Link>;
+      }
     return(
         <div className="flex justify-center items-center h-screen bg-blue-50 -mt-20">
             <div className="absolute top-28">

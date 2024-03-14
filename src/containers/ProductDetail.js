@@ -49,11 +49,11 @@ const ProductDetail = () =>{
               <p className="mr-5 md:mr-40">{description}</p>
             </div>
             <div className="block md:flex my-14">
-              <button className="bg-blue-400 text-white font-bold mb-5 mx-20 px-7 md:px-10 py-5 rounded-xl mr-20 hover:bg-blue-600">
+              <button className="bg-pink-600 text-white font-bold mb-5 mx-20 px-7 md:px-10 py-5 rounded-xl mr-20 hover:bg-blue-600">
                 <i className="fa-solid fa-bag-shopping mr-6 text-xl"></i>Buy Now
               </button>
               <button
-                className="bg-blue-400 text-white font-bold mb-5 mx-20 md:mx-0 px-4 md:px-10 py-5 rounded-xl hover:bg-blue-600"
+                className="bg-pink-600 text-white font-bold mb-5 mx-20 md:mx-0 px-4 md:px-10 py-5 rounded-xl hover:bg-blue-600"
                 onClick={handleAddToCart}
               >
                 <i className="fa-solid fa-cart-shopping mr-6 text-xl"></i>Add to cart
