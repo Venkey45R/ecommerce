@@ -39,13 +39,13 @@ const Signin = () =>{
     }, [isLoggedIn, navigate]);
 
     return(
-        <div className="flex justify-center items-center h-screen bg-indigo-200 -mt-20 font-bodoni">
-            <div className="bg-white px-8 py-14 rounded-xl shadow-md max-w-xl w-full mt-16">
+        <div className="flex justify-center items-center h-screen bg-indigo-200 -mt-20 font-bodoni p-6 md:p-0">
+            <div className="bg-white px-8 py-6 md:py-14 rounded-xl shadow-md max-w-xl w-full -mt-16 md:mt-16">
                 <div className="flex justify-center">
-                    <h1 className="text-2xl text-blue-900 font-bold pb-1">Welcome Back</h1>
+                    <h1 className="text-lg md:text-2xl text-blue-900 font-bold pb-1">Welcome Back</h1>
                 </div>
                 <div className="flex justify-center mb-3">
-                    <h2 className="text-blue-900 text-base">Enter your credentials to access your account</h2>
+                    <h2 className="text-blue-900 text-sm md:text-base">Enter your credentials to access your account</h2>
                 </div>
             <div className="flex justify-center my-2">
                 <form className="px-4 md:px-2 py-6 rounded-xl w-full" onSubmit={validate}>
@@ -57,13 +57,13 @@ const Signin = () =>{
                     <i class="fa-solid fa-lock text-blue-900 p-3 border-r-2 border-blue-900"></i>
                         <input type="password" placeholder="Enter your password" className="w-full text-blue-900 font-bold text-xl px-2 py-2  placeholder:text-gray-400 placeholder:font-semibold placeholder:text-base" id="password" value={password} onChange={(e) => setpassword(e.target.value)}/>
                     </div>
-                    <button className="py-2 px-4 bg-blue-900 text-white font-bold text-xl mt-4 rounded-lg w-full">Sign in</button>
+                    <button className="py-2 px-4 bg-blue-900 text-white font-bold text-xl mb-4 md:mb-0 mt-2 md:mt-4 rounded-lg w-full">Sign in</button>
                 </form>
             </div>
         </div>
-        <div className="flex justify-center absolute bottom-40">
-                <h3 className=" text-gray-400 pr-1">Forget your password?</h3>
-                <h3 className=" text-blue-900 cursor-pointer font-semibold">Reset password</h3>
+        <div className="flex justify-center absolute mt-60 md:mt-96">
+                <h3 className=" text-gray-400 text-sm md:text-base pr-1">Forget your password?</h3>
+                <h3 className=" text-blue-900 cursor-pointer text-sm md:text-base font-semibold">Reset password</h3>
             </div>
     </div>
     )

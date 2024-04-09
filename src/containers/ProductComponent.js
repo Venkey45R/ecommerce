@@ -19,8 +19,8 @@ const ProductComponent = ({ category }) => {
             </div>
             <div className="mx-3 my-3 flex flex-col border-t border-gray-500 px-2">
               <div className="font-semibold md:font-bold text-lg pb-2 mt-6 md:mt-4 text-blue-900">{title}</div>
-              <div className="text-lg py-2">$ {price}</div>
-              <div className="text-lg ">{category}</div>
+              <div className="text-lg py-4">$ {price}</div>
+              <div className="text-lg ">{category.toUpperCase()}</div>
             </div>
           </div>
         </Link>
