@@ -51,7 +51,7 @@ const ProductListing = () => {
               <li>Personalized Fit</li>
             </ul>
             <div className="flex justify-center items-center ">
-              <img src={men} alt="men" className=" w-32 rounded-md md:w-36 h-40 md:h-48 float-right md:mx-10 relative -top-40 md:left-20 left-0"/>
+              <img src={men} alt="men" className=" w-32 rounded-md md:w-36 h-40 md:h-48 float-right md:mx-10 relative -top-36 md:left-24 left-0"/>
             </div>
           </div>
           <div className=" h-96 md:h-60 text-blue-900 bg-white rounded-md border-2 border-blue-900 my-8 md:my-0">
@@ -62,7 +62,7 @@ const ProductListing = () => {
               <li>Comfortable Designs</li>
             </ul>
             <div className="flex justify-center items-center ">
-              <img src={women} alt="women" className="w-32 md:w-36 h-40 md:h-48 float-right mx-10 relative -top-40 rounded-md md:left-20 left-0"/>
+              <img src={women} alt="women" className="w-32 md:w-36 h-40 md:h-48 float-right mx-10 relative -top-36 rounded-md md:left-24 left-0"/>
             </div>
           </div>
           <div className="h-96 md:h-60 bg-white text-blue-900 rounded-md border-2 border-blue-900 my-8 md:my-0">
@@ -73,7 +73,7 @@ const ProductListing = () => {
               <li>Comfortable Designs</li>
             </ul>
             <div className="flex justify-center items-center">
-              <img src={jew} alt="jew" className="w-48 h-36 float-right mx-10 -mt-40 relative md:left-20 left-0"/>
+              <img src={jew} alt="jew" className="w-48 h-36 float-right mx-10 -mt-40 md:-mt-24 relative md:left-24 left-0"/>
             </div>
           </div>
         </div>
