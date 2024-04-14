@@ -38,7 +38,7 @@ const Header = () => {
             </h1>
           </div>
         </div>
-        <div className="flex items-center ml-auto">
+        <div className="flex items-center ml-auto -mt-4">
           <Link to="/cart">
             <button className="rounded-xl py-3 px-6 md:px-4 mx-1 md:relative md:-top-1 text-blue-900 font-bold text-2xl">
               <i className="fa-solid fa-bag-shopping"></i>
