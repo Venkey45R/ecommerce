@@ -70,7 +70,7 @@ const ProductDetail = () => {
                 <p className=" mr-4">PRICE:</p>
                 <strike className=" mr-4">${price + 100}</strike>
                 <p className="mr-1">${price}</p>
-                <p className="text-sm font-normal mt-1">*Inclusive of all taxes</p>
+                <p className="text-xs font-normal mt-1">*Inclusive of all taxes</p>
               </div>
             </div>
             </div>
