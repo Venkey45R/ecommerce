@@ -40,7 +40,7 @@ const Header = () => {
         </div>
         <div className="flex items-center ml-auto -mt-4 md:-mt-0">
           <Link to="/cart">
-            <button className="rounded-xl py-1 px-6 md:px-4 mx-1 md:relative md:-top-0 text-indigo-200 font-bold text-base md:text-2xl">
+            <button className="rounded-xl py-1 px-6 md:px-4 mx-1 md:relative md:-top-0 text-indigo-200 font-bold text-lg relative top-8 md:text-2xl">
               <i className="fa-solid fa-bag-shopping"></i>
             </button>
           </Link>
@@ -50,7 +50,7 @@ const Header = () => {
             </button>
           </Link>
           <div className="md:hidden cursor-pointer" onClick={toggleMobileMenu}>
-            <i className="fa-solid fa-bars text-base md:text-2xl relative top-20"></i>
+            <i className="fa-solid fa-bars text-lg relative top-8 text-white"></i>
           </div>
         </div>
       </div>
