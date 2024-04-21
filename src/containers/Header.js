@@ -12,7 +12,7 @@ const Header = () => {
     <div>
       <div className="flex flex-wrap items-center justify-between w-full h-20 px-4 md:px-10 py-0 border-b-2 border-gray-50 bg-blue-900">
         <div className="mr-0 md:mr-40">
-          <h2 className="font-bold text-base md:text-2xl text-yellow-400"><i class="fa-solid fa-crown mx-3 "></i>TRENDIFY HUB</h2>
+          <h2 className="font-bold text-lg md:text-2xl text-yellow-400"><i class="fa-solid fa-crown mx-3 "></i>TRENDIFY HUB</h2>
         </div>
         <div className="hidden md:flex md:w-1/2 justify-between items-center text-indigo-200 font-semibold">
           <Link to={`/Filter/${encodeURIComponent('home')}`} className="mx-10 hover:text-white">
