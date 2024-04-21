@@ -49,7 +49,7 @@ const Header = () => {
               LOGIN
             </button>
           </Link>
-          <div className="md:hidden cursor-pointer relative items-center" onClick={toggleMobileMenu}>
+          <div className="md:hidden cursor-pointer relative items-center -top-10" onClick={toggleMobileMenu}>
             <i className="fa-solid fa-bars text-lg text-white"></i>
           </div>
         </div>
