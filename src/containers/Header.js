@@ -50,7 +50,7 @@ const Header = () => {
             </button>
           </Link>
           <div className="md:hidden cursor-pointer" onClick={toggleMobileMenu}>
-            <i className="fa-solid fa-bars text-base md:text-2xl py-1"></i>
+            <i className="fa-solid fa-bars text-base md:text-2xl py-4"></i>
           </div>
         </div>
       </div>
