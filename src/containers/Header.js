@@ -10,11 +10,11 @@ const Header = () => {
 
   return (
     <div>
-      <div className="flex flex-wrap items-center justify-between w-full h-20 px-4 md:px-10 py-0 border-b-2 border-gray-50 bg-indigo-200">
+      <div className="flex flex-wrap items-center justify-between w-full h-20 px-4 md:px-10 py-0 border-b-2 border-gray-50 bg-blue-900">
         <div className="mr-0 md:mr-40">
-          <h2 className="font-bold text-2xl text-blue-900"><i class="fa-solid fa-crown mx-3 "></i>TRENDIFY HUB</h2>
+          <h2 className="font-bold text-2xl text-yellow-400"><i class="fa-solid fa-crown mx-3 "></i>TRENDIFY HUB</h2>
         </div>
-        <div className="hidden md:flex md:w-1/2 justify-between items-center text-blue-900 font-semibold">
+        <div className="hidden md:flex md:w-1/2 justify-between items-center text-indigo-200 font-semibold">
           <Link to={`/Filter/${encodeURIComponent('home')}`} className="mx-10 hover:text-white">
             Home
           </Link>
@@ -31,21 +31,21 @@ const Header = () => {
             Help
           </Link>
 
-          <div className="border border-gray-50 px-2 py-1 rounded-xl relative left-24">
-            <h1 className="text-black flex">
+          <div className="border border-white px-2 py-1 rounded-xl relative left-24">
+            <h1 className="text-indigo-200 flex">
               <i className="fa-solid fa-magnifying-glass pr-6 pt-1"></i>
-              <input type="text" placeholder="Search" className="w-44 bg-indigo-200" />
+              <input type="text" placeholder="Search" className="w-44 bg-blue-900 placeholder:text-white" />
             </h1>
           </div>
         </div>
-        <div className="flex items-center ml-auto -mt-4">
+        <div className="flex items-center ml-auto -mt-4 md:-mt-0">
           <Link to="/cart">
-            <button className="rounded-xl py-3 px-6 md:px-4 mx-1 md:relative md:-top-1 text-blue-900 font-bold text-2xl">
+            <button className="rounded-xl py-3 px-6 md:px-4 mx-1 md:relative md:-top-0 text-indigo-200 font-bold text-2xl">
               <i className="fa-solid fa-bag-shopping"></i>
             </button>
           </Link>
           <Link to="/Signin" className="hidden md:flex pr-0 md:pr-3">
-            <button className="bg-blue-900 px-6 md:px-8 py-1 mx-1 md:mx-3 text-white text-base rounded-md">
+            <button className="bg-indigo-200 px-6 md:px-8 py-1 mx-1 md:mx-3 text-blue-900 text-base rounded-md">
               LOGIN
             </button>
           </Link>

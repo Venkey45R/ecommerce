@@ -51,7 +51,7 @@ const ProductDetail = () => {
   }
 
   return (
-    <div className="bg-indigo-200 py-10">
+    <div className="bg-indigo-200 pt-10">
       <div className=" block">
         <div className=" flex justify-center items-center mx-4 md:mx-80 py-20 bg-white rounded-3xl">
           <div className=" flex">
@@ -119,6 +119,24 @@ const ProductDetail = () => {
             </div>
           </div>
         </div>
+        <div className=" pb-10 bg-blue-900">
+        <div className=" flex justify-center border-t-2 border-white">
+          <h2 className="font-bold text-2xl text-yellow-500 mt-6"><i class="fa-solid fa-crown mx-3 "></i>TRENDIFY HUB</h2>
+        </div>  
+        <div className=" flex justify-center mb-3 mt-6 text-indigo-200">
+            <p className=" mx-4 cursor-pointer">Home</p>
+            <p className=" mx-4 cursor-pointer">Features</p>
+            <p className=" mx-4 cursor-pointer">Pricing</p>
+            <p className=" mx-4 cursor-pointer">Services</p>
+            <p className=" mx-4 cursor-pointer">Shop</p>
+        </div>
+        <div className=" flex justify-center pt-10">
+          <div className="rounded-full mx-4 text-blue-900 py-4 px-6 bg-white"><i class="fa-brands fa-facebook-f"></i></div>
+          <div className="rounded-full mx-4 text-blue-900 px-6 py-4 bg-white"><i class="fa-brands fa-instagram"></i></div>
+          <div className="rounded-full mx-4 text-blue-900 px-6  py-4 bg-white"><i class="fa-brands fa-x-twitter"></i></div>
+          <div className="rounded-full mx-4 text-blue-900 px-6 py-4 bg-white"><i class="fa-brands fa-linkedin"></i></div>
+        </div>
+      </div>
       </div>
       {showConfirmation && (
         <ConfirmCart

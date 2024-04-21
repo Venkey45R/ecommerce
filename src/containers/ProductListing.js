@@ -28,7 +28,7 @@ const ProductListing = () => {
   }, []);
 
   return (
-    <div className="bg-indigo-200 py-4 px-2 md:px-8">
+    <div className="bg-indigo-200 pt-4 px-2 md:px-8">
       <div className=" mx-1 md:mx-14 rounded-xl mb-0 md:mb-10 pt-1 md:pt-6 pb-0 md:pb-20 bg-cover bg-center flex flex-col text-white justify-center items-center" style={{backgroundImage: `url(${herobg})`}}>
         <div className="block md:flex">
           <div className="block pt-12 pb-0 px-12 md:p-2 mt-20 md:mt-0">
@@ -79,6 +79,24 @@ const ProductListing = () => {
         </div>
       </div>
       <ProductComponent category={category}/>
+      <div className="-mx-8 pb-10 bg-blue-900">
+        <div className=" flex justify-center border-t-2 border-white">
+          <h2 className="font-bold text-2xl text-yellow-500 mt-6"><i class="fa-solid fa-crown mx-3 "></i>TRENDIFY HUB</h2>
+        </div>  
+        <div className=" flex justify-center text-indigo-200 my-6">
+            <p className=" mx-4 cursor-pointer">Home</p>
+            <p className=" mx-4 cursor-pointer">Features</p>
+            <p className=" mx-4 cursor-pointer">Pricing</p>
+            <p className=" mx-4 cursor-pointer">Services</p>
+            <p className=" mx-4 cursor-pointer">Shop</p>
+        </div>
+        <div className=" flex justify-center">
+          <div className="rounded-full mx-4 text-blue-900 py-4 px-6 bg-white"><i class="fa-brands fa-facebook-f"></i></div>
+          <div className="rounded-full mx-4 text-blue-900 px-6 py-4 bg-white"><i class="fa-brands fa-instagram"></i></div>
+          <div className="rounded-full mx-4 text-blue-900 px-6  py-4 bg-white"><i class="fa-brands fa-x-twitter"></i></div>
+          <div className="rounded-full mx-4 text-blue-900 px-6 py-4 bg-white"><i class="fa-brands fa-linkedin"></i></div>
+        </div>
+      </div>
     </div>
   );
 };

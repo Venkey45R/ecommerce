@@ -11,7 +11,7 @@ function Category() {
         <h1 className='text-3xl md:text-7xl font-bold md:font-semibold -mt-20 md:-mt-40'>PLAN YOUR ADVENTURE</h1>
         <p className='text-2xl md:text-4xl font-semibold md:font-normal mt-5 md:mt-10'>MEN'S CLOTHING</p>
         <Link to={`/Filter/${encodeURIComponent("men's clothing")}`}>
-          <button className='text-xl md:text-3xl font-normal border-2 md:border border-white hover:bg-white hover:text-black px-4 py-2 mt-6 md:mt-10'>SHOP NOW</button>
+          <button className='text-xl md:text-3xl font-normal border-2 md:border border-white px-4 py-2 mt-6 md:mt-10'>SHOP NOW</button>
         </Link>
       </div>
       <div className='block md:flex bg-black h-5/6'>

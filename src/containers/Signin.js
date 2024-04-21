@@ -39,8 +39,8 @@ const Signin = () =>{
     }, [isLoggedIn, navigate]);
 
     return(
-        <div className="flex justify-center items-center h-screen bg-indigo-200 -mt-20 font-bodoni p-6 md:p-0">
-            <div className="bg-white px-8 py-6 md:py-14 rounded-xl shadow-md max-w-xl w-full -mt-16 md:mt-16">
+        <div className="flex justify-center items-center h-screen bg-indigo-200 font-bodoni p-6 md:p-0">
+            <div className="bg-white px-8 py-6 md:py-14 rounded-xl shadow-md max-w-xl w-full -mt-16">
                 <div className="flex justify-center">
                     <h1 className="text-lg md:text-2xl text-blue-900 font-bold pb-1">Welcome Back</h1>
                 </div>
@@ -61,7 +61,7 @@ const Signin = () =>{
                 </form>
             </div>
         </div>
-        <div className="flex justify-center absolute mt-60 md:mt-96">
+        <div className="flex justify-center absolute mt-60 md:mt-64">
                 <h3 className=" text-gray-400 text-sm md:text-base pr-1">Forget your password?</h3>
                 <h3 className=" text-blue-900 cursor-pointer text-sm md:text-base font-semibold">Reset password</h3>
             </div>
