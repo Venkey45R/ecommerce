@@ -46,7 +46,7 @@ function Offers() {
     <div className='block overflow-auto bg-black md:overflow-hidden'>
     <div className='h-screen pt-16 bg-no-repeat bg-center bg-cover' style={{backgroundImage: `url(${bg})`}}>
       <div className='flex justify-center rounded-xl max-w-6xl mx-14 h-auto relative left-0 md:-left-20'>
-        <div className='block ml-0 md:ml-10 mt-60 md:mt-0 relative left-44 md:left-10'>
+        <div className='block ml-14 md:ml-10 mt-60 md:mt-0 relative left-44 md:left-10'>
           <h1 className='text-3xl md:text-5xl font-bold font-serif text-white pb-6'>Black Friday Sale</h1>
           <h1 className='text-xl md:text-3xl font-bold text-red-500 pb-6'>UPTO</h1>
           <h1 className='text-3xl md:text-5xl font-bold text-red-500 pb-6'>20% OFF</h1>
@@ -57,8 +57,8 @@ function Offers() {
               <h2 className='text-base text-white'>Hours : Minutes : Seconds</h2>
             </div>
           </div>
-          <div className='flex flex-col justify-center mt-8 md:mt-10 -ml-6 md:-ml-0 '>
-            <div className='group h-96 w-96 bg-black [perspective:1000px]'>
+          <div className='flex flex-col justify-center mt-8 md:mt-10 py-6 -ml-20 md:-ml-0 '>
+            <div className='group h-96 w-96 bg-black [perspective:1000px] mx-10 md:mx-0'>
               <div className='h-2/3 w-11/12 border ml-2 md:ml-0 border-white bg-gray-900 relative rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] [backface-visibility:hidden]'>
                 <div className='top-0 inset-0 flex justify-center items-center'>
                   <div className='block text-white'>
@@ -85,7 +85,7 @@ function Offers() {
             </div>
           </div>
         </div>
-        <div className=' relative -left-52 md:left-60 top-0 md:top-10'>
+        <div className=' relative -left-60 md:left-60 top-0 md:top-10'>
           <img src={sale} alt='summer sale' className=' min-w-80'/>
         </div>
       </div>
