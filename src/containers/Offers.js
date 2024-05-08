@@ -67,7 +67,7 @@ function Offers() {
                       <h1 className=' px-4 md:px-0 text-xl md:text-2xl font-bold text-white'>Prime Members Offers:</h1>
                     </div>
                     <div className='flex justify-center'>
-                      <div className='block mx-6'>
+                      <div className='block px-6'>
                         <h2 className='text-lg font-semibold py-2'>20% + 5% offer on all products</h2>
                         <h2 className='text-lg font-semibold py-1'>Free one day Delivery</h2>
                         <h2 className='text-lg font-semibold py-2'>Early Access to deals</h2>
