@@ -64,7 +64,7 @@ function Offers() {
                 <div className='top-0 inset-0 flex justify-center items-center'>
                   <div className='block text-white'>
                     <div className='bg-red-900 px-12 border-4 border-red-900 rounded-t-xl py-3'>
-                      <h1 className=' px-0 md:px-0 text-xl md:text-2xl font-bold text-white'>Prime Members Offers:</h1>
+                      <h1 className='text-lg md:text-2xl font-bold text-white'>Prime Members Offers:</h1>
                     </div>
                     <div className='flex justify-center'>
                       <div className='block px-1'>
