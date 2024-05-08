@@ -57,7 +57,7 @@ function Offers() {
               <h2 className='text-base text-white'>Hours : Minutes : Seconds</h2>
             </div>
           </div>
-          <div className=' px-0 overflow-hidden'>
+          <div className=' px-0'>
           <div className='flex flex-col justify-center mt-8 md:mt-10 py-6 -ml-20 md:-ml-0 '>
             <div className='group h-96 w-96 bg-black [perspective:1000px] mx-10 md:mx-0'>
               <div className='h-2/3 w-11/12 border ml-2 md:ml-0 border-white bg-gray-900 relative rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] [backface-visibility:hidden]'>
