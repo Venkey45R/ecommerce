@@ -63,15 +63,17 @@ function Offers() {
               <div className='h-2/3 w-10/12 md:w-11/12 border mx-auto md:mx-0 border-white bg-gray-900 relative rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] [backface-visibility:hidden]'>
                 <div className='top-0 inset-0 flex justify-center items-center'>
                   <div className='block text-white'>
-                    <div className='bg-red-900 px-12 border-4 border-red-900 rounded-t-xl py-3'>
-                      <h1 className=' text-base md:text-2xl font-bold text-white'>Prime Members Offers:</h1>
+                    <div className='bg-gray-900 md:bg-red-900 px-12 border-4 border-gray-900 md:border-red-900 rounded-t-xl py-3'>
+                      <h1 className=' text-lg md:text-2xl font-bold text-white'>Prime Members Offers:</h1>
                     </div>
                     <div className='flex justify-center'>
                       <div className='block px-1'>
                         <h2 className='text-lg font-semibold py-2'>20% + 5% offer on all products</h2>
                         <h2 className='text-lg font-semibold py-1'>Free one day Delivery</h2>
                         <h2 className='text-lg font-semibold py-2'>Early Access to deals</h2>
-                        <button className='px-8 py-3 rounded-xl bg-red-900 text-white'>prime sale starts now!!!</button>
+                        <div className=' mx-auto'>  
+                          <button className='px-8 py-3 rounded-xl bg-red-900 text-white'>prime sale starts now!!!</button>
+                        </div>
                       </div>
                     </div>
                   </div>
