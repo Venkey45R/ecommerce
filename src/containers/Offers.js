@@ -64,14 +64,14 @@ function Offers() {
                 <div className='top-0 inset-0 flex justify-center items-center'>
                   <div className='block text-white'>
                     <div className='bg-red-900 px-12 border-4 border-red-900 rounded-t-xl py-3'>
-                      <h1 className=' px-4 md:px-0 text-xl md:text-2xl font-bold text-white'>Prime Members Offers:</h1>
+                      <h1 className=' px-0 md:px-0 text-xl md:text-2xl font-bold text-white'>Prime Members Offers:</h1>
                     </div>
                     <div className='flex justify-center'>
                       <div className='block px-10'>
                         <h2 className='text-lg font-semibold py-2'>20% + 5% offer on all products</h2>
                         <h2 className='text-lg font-semibold py-1'>Free one day Delivery</h2>
                         <h2 className='text-lg font-semibold py-2'>Early Access to deals</h2>
-                        <button className='px-8 py-3 rounded-xl bg-red-900 text-white'>prime membership sale starts now!!!</button>
+                        <button className='px-8 py-3 rounded-xl bg-red-900 text-white'>prime sale starts now!!!</button>
                       </div>
                     </div>
                   </div>
@@ -79,7 +79,7 @@ function Offers() {
                 <div className='relative -top-60 inset-0 h-full w-full border border-white text-center text-white flex justify-center items-center rounded-xl [transform:rotateY(180deg)] [backface-visibility:hidden]'>
                   <div className='block'>
                     <h1 className='text-2xl font-bold py-2'>Join Prime Today</h1>
-                    <button className='px-4 py-2 text-white border border-white rounded-xl mt-6'>Join Prime Membership now</button>
+                    <button className='p py-2 text-white border border-white rounded-xl mt-6'>Join Prime Membership now</button>
                   </div>
                 </div>
               </div>
