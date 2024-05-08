@@ -55,18 +55,18 @@ const Header = () => {
         </div>
       </div>
       {isMobileMenuVisible && (
-        <div className="md:hidden bg-indigo-200 p-4">
-          <div className="border border-gray-50 px-2 py-1 rounded-xl mb-4">
-            <h1 className="text-blue-900">
+        <div className="md:hidden bg-blue-900 border-b border-white p-4">
+          <div className="border border-white px-2 py-1 rounded-xl mb-4">
+            <h1 className="text-white">
               <i className="fa-solid fa-magnifying-glass pr-6"></i>
-              <input type="text" placeholder="Search" className="w-16 bg-indigo-200 placeholder:text-black" />
+              <input type="text" placeholder="Search" className="w-16 bg-blue-900 placeholder:text-white" />
             </h1>
           </div>
-          <Link to={`/Filter/${encodeURIComponent('home')}`} className="block py-2 px-10">Home</Link>
-          <Link to="/categories" className="block py-2 px-10">Category's</Link>
-          <Link to="/offers" className="block py-2 px-10">Offers</Link>
-          <Link to="/help" className="block py-2 px-10">Help</Link>
-          <Link to="/signin" className="block py-2 px-10">Login</Link>
+          <Link to={`/Filter/${encodeURIComponent('home')}`} className="block py-2 px-12 border border-white rounded-lg my-2 text-white">Home</Link>
+          <Link to="/categories" className="block  text-white py-2 border border-white px-12 rounded-lg my-2">Category's</Link>
+          <Link to="/offers" className="block  text-white border border-white my-2 py-2 rounded-lg px-12">Offers</Link>
+          <Link to="/help" className="block text-white border border-white py-2 my-2 rounded-lg px-12">Help</Link>
+          <Link to="/signin" className="block py-2 text-white border border-white mt-2 rounded-lg px-12">Login</Link>
         </div>
       )}
     </div>

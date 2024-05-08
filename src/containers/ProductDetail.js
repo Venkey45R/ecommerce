@@ -68,8 +68,8 @@ const ProductDetail = () => {
             <div className="">
               <div className=" flex ml-24 md:-ml-72 py-8 text-lg md:text-xl font-bold">
                 <p className=" mr-4">PRICE:</p>
-                <strike className=" mr-4">${price + 100}</strike>
-                <p className="mr-1">${price}</p>
+                <strike className=" mr-4">${price}</strike>
+                <p className="mr-1">${price - price * 20 / 100}</p>
                 <p className="text-xs font-normal mt-1">*Inclusive of all taxes</p>
               </div>
             </div>

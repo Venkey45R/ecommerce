@@ -78,7 +78,9 @@ const ProductListing = () => {
           </div>
         </div>
       </div>
-      <ProductComponent category={category}/>
+      <div className=" mx-4">
+        <ProductComponent category={category}/>
+      </div>
       <div className="-mx-8 pb-10 bg-blue-900">
         <div className=" flex justify-center border-t-2 border-white">
           <h2 className="font-bold text-2xl text-yellow-500 mt-6"><i class="fa-solid fa-crown mx-3 "></i>TRENDIFY HUB</h2>

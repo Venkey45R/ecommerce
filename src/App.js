@@ -6,7 +6,7 @@ import Signin from "./containers/Signin";
 import Cart from "./containers/Cart";
 import ConfirmCart from "./containers/ConfirmCart";
 import Category from "./containers/Category";
-
+import Offers from "./containers/Offers";
 function App() {
   return (
     <div className="">
@@ -19,6 +19,7 @@ function App() {
           <Route path="/Filter/:category" element={<ProductListing />} />
           <Route path="/Signin" exact Component={Signin} />
           <Route path="/Cart" exact Component={Cart} />
+          <Route path="/offers" exact Component={Offers} />
           <Route path="/ConfirmCart/:productId" exact Component={ConfirmCart} />
           <Route path="/categories" exact Component={Category} />
           <Route>404 Not Found </Route>
