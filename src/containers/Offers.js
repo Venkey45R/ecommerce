@@ -46,7 +46,7 @@ function Offers() {
     <div className='block overflow-auto bg-black md:overflow-hidden'>
     <div className='h-screen pt-16 bg-no-repeat bg-center bg-cover' style={{backgroundImage: `url(${bg})`}}>
       <div className='flex justify-center rounded-xl max-w-6xl mx-14 h-auto relative left-0 md:-left-20'>
-        <div className='block ml-14 md:ml-10 mt-60 md:mt-0 relative left-44 md:left-10'>
+        <div className='block ml-14 md:ml-10 mt-60 md:mt-40 relative left-44 md:left-10'>
           <h1 className='text-3xl md:text-5xl font-bold font-serif text-white pb-6'>Black Friday Sale</h1>
           <h1 className='text-xl md:text-3xl font-bold text-red-500 pb-6'>UPTO</h1>
           <h1 className='text-3xl md:text-5xl font-bold text-red-500 pb-6'>20% OFF</h1>
@@ -70,7 +70,7 @@ function Offers() {
                         <h2 className='text-lg font-semibold py-2'>20% + 5% offer on all products</h2>
                         <h2 className='text-lg font-semibold py-1'>Free one day Delivery</h2>
                         <h2 className='text-lg font-semibold py-2'>Early Access to deals</h2>
-                        <button className='px-8 py-3 rounded-xl bg-red-900 text-white my-2'>prime membership sale starts now!!!</button>
+                        <button className='px-8 py-3 rounded-xl bg-red-900 text-white'>prime membership sale starts now!!!</button>
                       </div>
                     </div>
                   </div>
