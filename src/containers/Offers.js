@@ -44,7 +44,7 @@ function Offers() {
 
   return (
     <div className='block overflow-auto bg-black md:overflow-hidden'>
-    <div className='h-screen pt-16 bg-no-repeat bg-center bg-cover ml-14' style={{backgroundImage: `url(${bg})`}}>
+    <div className='h-screen pt-16 bg-no-repeat bg-center bg-cover ml-6' style={{backgroundImage: `url(${bg})`}}>
       <div className='flex justify-center rounded-xl max-w-6xl mx-14 h-auto relative left-0 md:-left-20'>
         <div className='block ml-14 md:ml-10 mt-60 md:mt-0 relative left-44 md:left-10'>
           <h1 className='text-3xl md:text-5xl font-bold font-serif text-white pb-6'>Black Friday Sale</h1>
@@ -60,14 +60,14 @@ function Offers() {
           <div className=' mx-0'>
           <div className='flex flex-col justify-center mt-8 md:mt-10 py-6 -ml-24 md:-ml-0 '>
             <div className='group h-96 w-96 bg-black [perspective:1000px] mx-10 md:mx-0'>
-              <div className='h-2/3 w-10/12 md:w-11/12 border mx-auto md:mx-0 border-white bg-gray-900 relative rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] [backface-visibility:hidden]'>
+              <div className='h-3/4 w-10/12 md:w-11/12 border mx-auto md:mx-0 border-white bg-red-900 relative rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] [backface-visibility:hidden]'>
                 <div className='top-0 inset-0 flex justify-center items-center'>
                   <div className='block text-white'>
-                    <div className='bg-gray-900 md:bg-red-900 px-12 border-4 border-gray-900 md:border-red-900 rounded-t-xl py-3'>
-                      <h1 className=' text-lg md:text-2xl font-bold text-white'>Prime Members Offers:</h1>
+                    <div className='px-6 md:px-12 rounded-t-xl'>
+                      <h1 className=' text-lg py-4 md:text-2xl font-bold text-white'>Prime Members Offers:</h1>
                     </div>
                     <div className='flex justify-center'>
-                      <div className='block px-1'>
+                      <div className='block w-full bg-gray-900 mx-2 px-8 py-2 md:py-4'>
                         <h2 className='text-lg font-semibold py-2'>20% + 5% offer on all products</h2>
                         <h2 className='text-lg font-semibold py-1'>Free one day Delivery</h2>
                         <h2 className='text-lg font-semibold py-2'>Early Access to deals</h2>
@@ -78,7 +78,7 @@ function Offers() {
                     </div>
                   </div>
                 </div>
-                <div className='relative -top-60 inset-0 h-full w-full border border-white text-center text-white flex justify-center items-center rounded-xl [transform:rotateY(180deg)] [backface-visibility:hidden]'>
+                <div className='relative -top-60  inset-0 h-full w-full border border-white text-center text-white flex justify-center items-center rounded-xl [transform:rotateY(180deg)] [backface-visibility:hidden]'>
                   <div className='block'>
                     <h1 className='text-2xl font-bold py-2'>Join Prime Today</h1>
                     <button className='p py-2 text-white border border-white rounded-xl mt-6'>Join Prime Membership now</button>
@@ -89,7 +89,7 @@ function Offers() {
             </div>
           </div>
         </div>
-        <div className=' relative -left-56 md:left-60 top-0 md:top-10'>
+        <div className=' relative -left-60 md:left-60 top-0 md:top-10'>
           <img src={sale} alt='summer sale' className=' min-w-80'/>
         </div>
       </div>
