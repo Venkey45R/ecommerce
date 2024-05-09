@@ -72,7 +72,7 @@ function Offers() {
                         <h2 className='text-lg font-semibold py-1'>Free one day Delivery</h2>
                         <h2 className='text-lg font-semibold py-2'>Early Access to deals</h2>
                         <div className=' mx-auto'>  
-                          <button className='px-8 py-3 mb-2 rounded-xl bg-red-900 text-white'>prime sale starts now!!!</button>
+                          <button className='px-2 md:px-8 py-3 mb-2 rounded-xl bg-red-900 text-white'>prime sale starts now!!!</button>
                         </div>
                       </div>
                     </div>
