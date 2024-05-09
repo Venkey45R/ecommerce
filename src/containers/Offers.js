@@ -67,12 +67,12 @@ function Offers() {
                       <h1 className=' text-lg py-4 md:text-2xl font-bold text-white'>Prime Members Offers:</h1>
                     </div>
                     <div className='flex justify-center'>
-                      <div className='block w-full bg-gray-900 mx-2 px-8 py-2 md:py-4'>
+                      <div className='block w-full bg-gray-900 mx-2 px-8 py-0 md:py-4'>
                         <h2 className='text-lg font-semibold py-2'>20% + 5% offer on all products</h2>
                         <h2 className='text-lg font-semibold py-1'>Free one day Delivery</h2>
                         <h2 className='text-lg font-semibold py-2'>Early Access to deals</h2>
                         <div className=' mx-auto'>  
-                          <button className='px-8 py-3 rounded-xl bg-red-900 text-white'>prime sale starts now!!!</button>
+                          <button className='px-8 py-3 mb-2 rounded-xl bg-red-900 text-white'>prime sale starts now!!!</button>
                         </div>
                       </div>
                     </div>
